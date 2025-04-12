@@ -1,0 +1,406 @@
+:root {
+  --primary-clour--: #fa7436;
+}
+* {
+  margin: 0px;
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 180px;
+  align-items: center;
+  width: 950px;
+  height: 40px;
+}
+.nav_link {
+  display: flex;
+  column-gap: 50px;
+  list-style-type: none;
+}
+.lg_bt {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+.one {
+  background-color: #fff7f3;
+}
+.cnt_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sign_btn {
+  padding-top: 10px;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  background-color: #fa7436;
+  color: white;
+  border-radius: 3px;
+}
+
+.discover_btn {
+  background-color: #ffffff;
+  border-color: #fa7436;
+  height: 30px;
+  color: #fa7436;
+}
+
+.explore_cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  height: 80px;
+  width: 700px;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.explore_btn {
+  background-color: #fa7436;
+  color: white;
+  border-radius: 3px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dropdown_cta {
+  font-size: 11px;
+  font-family: "poppins";
+}
+.right_container img {
+  height: 400px;
+}
+.two {
+  background-color: #f7f8fc;
+}
+.footer {
+  height: 50px;
+  width: 50px;
+}
+.need_to_do {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+  font-family: "poppins";
+}
+.flight img {
+  height: 100px;
+  width: 100px;
+}
+.square {
+  height: 150px;
+  width: 250px;
+  background-color: white;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sq-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  padding-top: 50px;
+  font-family: "poppins";
+}
+
+.selection_list img {
+  height: 30px;
+  width: 30px;
+}
+.three {
+  background-color: #fefcfb;
+  padding-top: 50px;
+}
+.deals_discounts {
+  text-align: center;
+}
+.rectangle_box {
+  width: 150px;
+  height: 215px;
+  background-color: rgb(249, 250, 246);
+}
+.rectangle_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  column-gap: 10px;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+}
+.flex {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.jc_sb {
+  justify-content: space-between;
+}
+.al_it_cntr {
+  align-items: center;
+}
+.jc_cntr {
+  justify-content: center;
+}
+.txt_al-cntr {
+  text-align: center;
+}
+.rating {
+  display: flex;
+  gap: 05px;
+}
+.map img {
+  width: 38px;
+  height: 20px;
+}
+.strike {
+  text-decoration: line-through;
+  color: #878787;
+  font-size: 13px;
+}
+.price {
+  width: 29px;
+  height: 15px;
+  background-color: #ffe7db;
+  border-radius: 05px;
+  text-align: center;
+}
+.slider-btn {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.txt {
+  text-align: center;
+}
+.ctree img {
+  height: 50px;
+}
+.b-vacation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.slider {
+  display: flex;
+  justify-content: end;
+  margin-right: 300px;
+}
+.section-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star img {
+  height: 10px;
+  width: 10px;
+}
+.navi img {
+  height: 10px;
+  width: 10px;
+}
+.star-1 {
+  display: flex;
+  align-items: center;
+}
+.square_box {
+  height: 245px;
+  width: 200px;
+}
+.card-cta img {
+  width: 200px;
+  height: 200px;
+}
+.fourth-container {
+  display: flex;
+  justify-content: center;
+ padding-top: 150px;
+ padding-left: 200px;
+}
+.five {
+  margin-top: 20px;
+  background-color: #F7F8FC;
+  height: 450px;
+}
+.clint-image {
+  display: flex;
+  justify-content: center;
+
+  }
+.clint-image img {
+  height: 350px;
+}
+.six{
+  padding-top: 80px;
+  height: 350px;
+}
+.six-square {
+  height: 210px;
+  width: 150px;
+  background-color:white;
+  margin-right: 20px;
+}
+
+.sixth-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.six-cta-image img {
+height: 150px;
+}
+.six-slideer {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
